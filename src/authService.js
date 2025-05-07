@@ -6,16 +6,16 @@
 // Default admin credentials
 const DEFAULT_ADMINS = [
   { fullname: 'Vincent', password: 'admin', role: 'admin', regiment: '1st Infantry Division' },
-  { fullname: 'Field Admin', password: 'admin', role: 'admin', regiment: '1st Infantry Division' }
+  { fullname: 'Admin', password: 'admin0102', role: 'admin', regiment: '1st Infantry Division' }
 ];
 
 const REGIMENTS = [
-  '1st Infantry Division',
-  '783rd Military Police',
-  '13e Génie',
-  '3rd Armored',
-  '101st Airbone Division',
-  '188th Médical Battalion'
+  '8th Infantry Regiment',
+  '4th Military Police Company',
+  '506th Parachute Infantry Regiment',
+  '67th Armored Regiment',
+  '2nd Rangers Battalion',
+  '42nd Medical Battalion'
 ];
 
 // Initialize users from localStorage or use defaults
